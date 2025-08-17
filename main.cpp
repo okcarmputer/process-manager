@@ -56,7 +56,7 @@ int main() {
             if (result == 0) {
                 cout << "Process " << pid << " killed.\n";
             } else {
-                cout << "Failed to kill process " << pid
+                cout << "Failed to kill process " << pid;
             }
         }
     }
